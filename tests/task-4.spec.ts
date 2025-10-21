@@ -4,14 +4,14 @@ import { test, expect } from '@playwright/test';
 // Create a test that verifies that it is possible to add 7 quantities of the bundle option
 // for any type of lily. Verify cart content.
 
-
 // There are 8 different types of lily to choose from (updated on 21/10/2025), I created one test per type.
 // Note that for each type there are different options of lily to choose from,
 // many types have more than one options, while some have just one, 
 // for simplicity I chose the first option for all types.
 
 // Since there is no specific requirement of the bundle option, I decided to create a variable named bundle_option
-// to easily change the bundle option number for all types of lilies.
+// to easily change the bundle option number for all types of lilies. 
+// Note that most types have at most 2 bundle options.
 
 const bundle_option = 1; // Change the bundle option number as needed
 

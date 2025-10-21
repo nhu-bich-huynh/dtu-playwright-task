@@ -4,7 +4,6 @@ import { test, expect } from '@playwright/test';
 // Create a test that adds 3 different items to the cart in different quantities (any bundle option) 
 // and verify that the subtotal for the cart is the sum of the subtotal of each item.
 
-
 // Unfinished test
 test('test', async ({ page }) => {
   await page.goto('https://www.bulbi.nl/en/');
