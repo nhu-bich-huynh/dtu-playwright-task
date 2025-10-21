@@ -10,7 +10,7 @@ To run a specific task file, use:
 `npx playwright test name_of_test_file`  
 For example: `npx playwright test task-1.spec.ts`
 
-All the tests passed for **Chromium** within a few minutes without noticeable issues.  
+All the tests passed for **Chromium** and **Webkit** within a few minutes without noticeable issues.  
 For **Firefox**, sometimes the test fails with:  
 `Test timeout of 120000ms exceeded`  
 This usually happens at:  
@@ -29,8 +29,7 @@ For **Tasks 2, 3, and 4**, I would refactor the code to use a single helper func
 
 Moreoer, when verifying the cart, the test should dynamically check the name of selected flower on the website and compare it with the content in the cart.  
 
-Currently, the code selects the first option for each flower type.  
-It would be better to select one randomly by extracting the number of available options for each type and choosing one randomly.
+Currently, the code selects the first option for each flower type. It would be better to select one randomly by extracting the number of available options for each type and choosing one randomly.
 
 ---
 
