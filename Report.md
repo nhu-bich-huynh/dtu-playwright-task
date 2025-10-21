@@ -35,7 +35,7 @@ Currently, the code selects the first option for each flower type. It would be b
 
 ### Plan for Task 5
 
-If I had more time, I would create a helper function that takes three arguments, where each represents a flower type, for example: (function(tulip, tulip, lily)), as the task requires three different items (not necessarily from different types)  
+If I had more time, I would create a helper function that takes 9 arguments, where three represent a flower type, three represent a quantity and three represent a bundle option for each flower type, for example: (function(tulip, 1, 1, tulip, 5, 2, lily, 10, 1)), as the task requires three different items (not necessarily from different types)  
 
 Then, for each type, the function would randomly select one option as described above for task 2 to 4.   
 
