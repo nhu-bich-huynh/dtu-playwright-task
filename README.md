@@ -6,9 +6,12 @@ Create Playwright UI tests against www.bulbi.nl/en (English version). You have n
 control over this external site.
 
 ## Requirements
-• Use TypeScript
+• Use TypeScript 
+
 • Use Playwright as test runner (codegen can help create the tests)
+
 • Ensure tests run against the English site (handle language if needed)
+
 • Keep any additional structure, tooling, comments, or documentation to what you judge appropriate
 
 ## Task 1:
